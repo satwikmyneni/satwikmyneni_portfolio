@@ -5,7 +5,7 @@ const FooterSection = () => {
         <div className="grid md:grid-cols-2 gap-12">
           <div>
             <h3 className="font-mono text-sm font-semibold text-foreground tracking-wider mb-4">
-              SM<span className="text-primary">.</span>
+              Satwik Myneni<span className="text-primary">.</span>
             </h3>
             <p className="text-sm text-muted-foreground max-w-sm leading-relaxed mb-6">
               Final-year CS student focused on building reliable, scalable software.

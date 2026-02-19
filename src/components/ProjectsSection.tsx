@@ -16,6 +16,39 @@ const projects = [
     github: "#",
   },
   {
+  title: "Electrical Contracts Portfolio Website",
+  subtitle: "Freelance Client Project",
+  tags: ["Frontend", "Freelancing", "UI/UX"],
+  problem: "Small-scale contracting business needed a professional digital presence to showcase services and improve client acquisition.",
+  stack: ["HTML", "CSS", "JavaScript", "Responsive Design"],
+  impact: [
+    "Designed and developed fully responsive static website",
+    "Improved business visibility and credibility through modern UI",
+    "Optimized layout for mobile and cross-device compatibility",
+    "Delivered production-ready solution aligned with client requirements"
+  ],
+  github: "https://github.com/satwikmyneni/PARUCHURIPROJECTS",
+  live:"paruchuriprojets.netlify.app",
+},
+{
+  title: "Clothing Boutique E-Commerce Platform",
+  subtitle: "Full-Stack Freelance Project",
+  tags: ["Full-Stack", "Backend", "Database"],
+  problem: "Client required a scalable system to manage products, orders, and customer interactions with admin control.",
+  stack: ["Django", "PostgreSQL", "JavaScript", "REST APIs"],
+  impact: [
+    "Built full-stack e-commerce platform with authentication system",
+    "Developed admin dashboard for product and order management",
+    "Handled real-world data scenarios including product updates and inventory changes",
+    "Integrated database for dynamic product handling",
+    "Implemented CRUD workflows and secure backend APIs",
+    "Delivered end-to-end deployable system for real client usage"
+  ],
+  github: "https://github.com/satwikmyneni/vastra",
+  live:"https://vaastra.netlify.app/",
+},
+
+  {
     title: "Scalable Data Processing Platform",
     subtitle: "Backend + Data Engineering",
     tags: ["Backend", "Data Pipeline"],
@@ -28,6 +61,7 @@ const projects = [
       "Modular backend design",
     ],
     github: "#",
+    live:"#",
   },
   {
     title: "JobScam Spotter",
@@ -41,7 +75,8 @@ const projects = [
       "Risk visualization dashboard",
       "Deployed via Streamlit",
     ],
-    github: "#",
+    github: "https://github.com/satwikmyneni/spot-the-scam",
+    live:"https://jobscamspotter.streamlit.app/",
   },
   {
     title: "NeoHealth AI",
@@ -55,7 +90,8 @@ const projects = [
       "Interactive Streamlit interface",
       "Robust data preprocessing pipeline",
     ],
-    github: "#",
+    github: "https://github.com/satwikmyneni/AI_medical_diagnosis",
+    live: "https://neohealthai.streamlit.app/",
   },
   {
     title: "Weather Analytics App",
@@ -69,6 +105,7 @@ const projects = [
       "Backend data processing layer",
     ],
     github: "#",
+    live: "#",
   },
 ];
 
@@ -87,7 +124,7 @@ const ProjectsSection = () => {
             Projects
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-            Engineering Work
+            Selected Projects & Client Work
           </h2>
         </motion.div>
 
@@ -142,12 +179,26 @@ const ProjectsSection = () => {
                 ))}
               </ul>
 
-              <a
-                href={project.github}
-                className="inline-flex items-center gap-2 text-sm text-primary hover:underline font-mono"
-              >
-                View on GitHub →
-              </a>
+               <div className="flex gap-4 mt-auto">
+                  {project.github && (
+                  <a
+                  href={project.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm font-mono text-primary hover:underline">
+                  GitHub →
+                  </a>)}
+
+                  {project.live && (
+                  <a
+                    href={project.live}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm font-mono text-primary hover:underline">
+                    Live →
+                  </a>)}
+</div>
+
             </motion.div>
           ))}
         </div>

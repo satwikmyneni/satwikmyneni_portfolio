@@ -81,15 +81,6 @@ const HeroSection = () => {
                 <path d="M3 8h10M9 4l4 4-4 4" />
               </svg>
             </a>
-            <a
-              href="#"
-              className="inline-flex items-center gap-2 border border-border text-foreground px-6 py-3 rounded-md font-medium text-sm hover:bg-secondary transition-colors"
-            >
-              Download Resume
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
-                <path d="M3 10v3h10v-3M8 3v7M5 8l3 3 3-3" />
-              </svg>
-            </a>
           </div>
         </motion.div>
 

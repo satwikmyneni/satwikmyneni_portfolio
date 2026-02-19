@@ -28,8 +28,8 @@ const Navigation = () => {
       }`}
     >
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        <a href="#" className="font-mono text-sm font-semibold text-foreground tracking-wider">
-          SM<span className="text-primary">.</span>
+        <a href="#hero" className="font-semibold text-base tracking-tight text-foreground">
+        Satwik<span className="text-primary ml-1">Myneni</span>
         </a>
 
         <div className="hidden md:flex items-center gap-8">
@@ -37,7 +37,7 @@ const Navigation = () => {
             <a
               key={link.href}
               href={link.href}
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors duration-200"
+              className="text-lg text-muted-foreground hover:text-foreground transition-colors duration-200"
             >
               {link.label}
             </a>

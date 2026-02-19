@@ -1,13 +1,32 @@
 import { motion } from "framer-motion";
 
 const achievements = [
-  { metric: "270+", label: "DSA Problems Solved", icon: "⟨/⟩" },
-  { metric: "1st", label: "Hackathon Champion — 50+ teams", icon: "🏆" },
-  { metric: "✓", label: "Advanced SQL Certified", icon: "📜" },
-  { metric: "Gold", label: "HackerRank Python Badge", icon: "🥇" },
-  { metric: "Top 5", label: "Inter-College Hackathon Finalist", icon: "🎯" },
-  { metric: "CR", label: "Class Representative — Leadership", icon: "👥" },
+  {
+    metric: "270+",
+    label: "Data Structures & Algorithms Problems Solved",
+  },
+  {
+    metric: "Rank 1",
+    label: "Hackathon Winner — GGU Medha (50+ Teams)",
+  },
+  {
+    metric: "Certified",
+    label: "Advanced SQL — HackerRank",
+  },
+  {
+    metric: "Gold",
+    label: "Python Proficiency — HackerRank",
+  },
+  {
+    metric: "Finalist",
+    label: "Inter-College Technical Hackathon (Top 30 Teams)",
+  },
+  {
+    metric: "Leadership",
+    label: "Class Representative — Department of CSE",
+  },
 ];
+
 
 const AchievementsSection = () => {
   return (
