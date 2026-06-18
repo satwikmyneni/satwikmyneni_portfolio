@@ -8,17 +8,17 @@ const FooterSection = () => {
               Satwik Myneni<span className="text-primary">.</span>
             </h3>
             <p className="text-sm text-muted-foreground max-w-sm leading-relaxed mb-6">
-              Final-year CS student focused on building reliable, scalable software.
+              Computer Science student focused on building reliable, scalable software.
               Open to SDE, full-stack, and data engineering roles.
             </p>
             <div className="flex gap-4">
-              <a href="mailto:satwik@example.com" className="text-sm text-primary hover:underline font-mono">
+              <a href="mailto:mynenisatvik@gmail.com" className="text-sm text-primary hover:underline font-mono">
                 Email
               </a>
-              <a href="#" className="text-sm text-primary hover:underline font-mono">
+              <a href="https://www.linkedin.com/in/satwik-myneni-14b645254/" className="text-sm text-primary hover:underline font-mono">
                 LinkedIn
               </a>
-              <a href="#" className="text-sm text-primary hover:underline font-mono">
+              <a href="https://github.com/satwikmyneni" className="text-sm text-primary hover:underline font-mono">
                 GitHub
               </a>
             </div>
@@ -26,7 +26,7 @@ const FooterSection = () => {
           <div className="md:text-right">
             <p className="text-sm text-muted-foreground mb-1">Hyderabad, India</p>
             <p className="text-sm text-muted-foreground mb-1">B.Tech Computer Science (2022–2026)</p>
-            <p className="text-sm text-muted-foreground">CGPA: 8.10/10 • Minor: DS & ML – IIT Guwahati</p>
+            <p className="text-sm text-muted-foreground">CGPA: 8.06/10 • Minor: DS & ML – IIT Guwahati</p>
           </div>
         </div>
         <div className="mt-12 pt-6 border-t border-border">
